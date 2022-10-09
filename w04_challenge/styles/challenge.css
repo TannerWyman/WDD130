@@ -1,0 +1,47 @@
+body {
+    background-color: pink;
+    text-align: center;
+    font-family: sans-serif;
+}
+header {
+    color: white;
+}
+#title {
+    margin-right: 37%;
+    margin-left: 35%;
+}
+#title:hover {
+    margin-right: 37%;
+    margin-left: 35%;
+    color: black;
+}
+p {
+    margin-right: 37%;
+    margin-left: 35%;
+}
+main.p {
+    text-align: left;
+}
+h1 {
+    font-size: 3.5em;
+    padding: 10px;
+}
+.mini_head {
+    margin-right: 37%;
+    margin-left: 35%;
+}
+
+.dark {
+    color: black;
+}
+#quote {
+    text-align: left;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 35%;
+    padding-right: 37%;
+}
+footer.p {
+    margin-right: 37%;
+    margin-left: 35%;
+}
