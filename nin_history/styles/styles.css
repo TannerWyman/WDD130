@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+header {
+    background-color: #4C5B5C;
+}
+nav a {
+    padding: 1em;
+    min-width: 120px;
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+    color: #00CABD;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 1fr 1fr 1fr 50px;
+}
+
+.intro {
+    grid-column: 3 / 6;
+    grid-row: 1/2;
+}
+#timeline1 {
+    grid-column: 3 / 6;
+    grid-row: 2 / 6;
+}
+#timeline2 {
+    grid-column: 3 / 6;
+    grid-row: 6 / 11;
+}
+h1 {
+    font-family: 'Nunito';
+    color: #00CABD;
+    padding-bottom: 30px;
+}
+h2 {
+    font-family: 'Nunito';
+    color: #00CABD;
+}
+p {
+    font-family: 'Nunito';
+    color: #4C5B5C;
+}
+.game_title {
+    width: 300px;
+}
+
+
+#mario {
+    grid-column:  5 / 7;
+    grid-row: 2 / 3;
+}
+#zelda {
+    grid-column:  2 / 4;
+    grid-row: 3 / 4;
+}
+#metroid {
+    grid-column:  5 / 7;
+    grid-row: 4 / 5;
+}
+#kirby {
+    grid-column:  2 / 4;
+    grid-row: 5 / 6;
+}
+#fox {
+    grid-column:  5 / 7;
+    grid-row: 6 / 7;
+}
+#kong {
+    grid-column:  2 / 4;
+    grid-row: 7 / 8;
+}
+#pokemon {
+    grid-column:  5 / 7;
+    grid-row: 8 / 9;
+}
+#crossing {
+    grid-column:  2 / 4;
+    grid-row: 9 / 10;
+}
+#wii {
+    grid-column:  5 / 7;
+    grid-row: 10 / 11;
+}
+#xenoblade {
+    grid-column:  2 / 4;
+    grid-row: 11 / 12;
+}
