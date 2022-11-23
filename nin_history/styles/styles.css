@@ -2,6 +2,9 @@
 header {
     background-color: #4C5B5C;
 }
+img {
+    width: 100px;
+}
 nav a {
     padding: 1em;
     min-width: 120px;
@@ -23,10 +26,12 @@ main {
 #timeline1 {
     grid-column: 3 / 6;
     grid-row: 2 / 6;
+    z-index: -1;
 }
 #timeline2 {
     grid-column: 3 / 6;
     grid-row: 6 / 11;
+    z-index: -1;
 }
 h1 {
     font-family: 'Nunito';
@@ -42,7 +47,7 @@ p {
     color: #4C5B5C;
 }
 .game_title {
-    width: 300px;
+    width: 500px;
 }
 
 
