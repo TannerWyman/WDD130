@@ -1,17 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 header {
     background-color: #4C5B5C;
+    display: grid;
+    grid-template-columns: 280px auto;
 }
-img {
-    width: 100px;
+
+.logo {
+    padding-top: 10px;
+    padding-left: 5px;
+    width: 100%;
+}
+.logo_link {
+    width: auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 nav a {
-    padding: 1em;
-    min-width: 120px;
+    font-family: 'Nunito';
+    font-size: 30px;
     text-align: center;
     text-decoration: none;
-    padding: 35px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
     color: #00CABD;
+}
+
+nav a:hover {
+    background-color: #0F5753;
+    color: white;
 }
 
 main {
@@ -19,21 +39,29 @@ main {
     grid-template-columns: 50px 1fr 1fr 1fr 1fr 1fr 50px;
 }
 
+.intro_title {
+    grid-column: 3 / 6;
+    grid-row: 1/2; 
+    font-size: 50px;  
+}
 .intro {
     grid-column: 3 / 6;
-    grid-row: 1/2;
+    grid-row: 2/3;
+    font-size: 25px;
+}
+
+
+#timeline {
+    grid-column: 3 / 6;
+    grid-row: 3 / 50;
+
 }
 #timeline1 {
-    grid-column: 3 / 6;
-    grid-row: 2 / 6;
-    z-index: -1;
-    width: auto;
+    padding-top: 100px;
+    width: 75%;
 }
 #timeline2 {
-    grid-column: 3 / 6;
-    grid-row: 6 / 11;
-    z-index: -1;
-    width: auto;
+    width: 75%;
 }
 h1 {
     font-family: 'Nunito';
@@ -49,47 +77,72 @@ p {
     color: #4C5B5C;
 }
 .game_title {
-    width: 500px;
+    width: 70%;
+}
+.game_title {
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black;
+}
+.game_title:hover {
+    transform: scale(1.05);
 }
 
 
 #mario {
     grid-column:  5 / 7;
-    grid-row: 2 / 3;
+    grid-row: 3 / 5;
 }
 #zelda {
     grid-column:  2 / 4;
-    grid-row: 3 / 4;
+    grid-row: 4 / 6;
 }
 #metroid {
+    padding-top: 50px;
     grid-column:  5 / 7;
-    grid-row: 4 / 5;
+    grid-row: 5 / 7;
 }
 #kirby {
     grid-column:  2 / 4;
-    grid-row: 5 / 6;
+    grid-row: 6 / 8;
+    padding-top: 60px;
 }
 #fox {
+    padding-top: 50px;
     grid-column:  5 / 7;
-    grid-row: 6 / 7;
+    grid-row: 7 / 9;
 }
 #kong {
+    padding-top: 50px;
+    width: 90%;
     grid-column:  2 / 4;
-    grid-row: 7 / 8;
+    grid-row: 8 / 10;
 }
 #pokemon {
+    padding-top: 50px;
     grid-column:  5 / 7;
-    grid-row: 8 / 9;
+    grid-row: 9 / 11;
 }
 #crossing {
+    padding-top: 50px;
+    width: 90%;
     grid-column:  2 / 4;
-    grid-row: 9 / 10;
+    grid-row: 10 / 12;
 }
 #wii {
+    padding-top: 50px;
     grid-column:  5 / 7;
-    grid-row: 10 / 11;
+    grid-row: 11 / 13;
 }
 #xenoblade {
+    padding-top: 100px;
     grid-column:  2 / 4;
-    grid-row: 11 / 12;
+    grid-row: 12 / 14;
+}
+
+footer {
+    padding: 6px;
+    background-color: #0F5753;
+}
+footer p {
+    color: white;
 }
