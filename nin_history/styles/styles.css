@@ -148,6 +148,67 @@ footer p {
 }
 
 /* Series.html */ 
+.series-grid {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+}
+
+#about_mario {
+    grid-column: 2/3;
+    padding: 100px 0px;
+}
+.release_date {
+    display: flex;
+    background-color: #717171;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 75em;
+}
+b {
+    color: #0F5753;
+}
+.release_items {
+    font-size: 20px;
+    color: #00CABD;
+}
+#about_zelda {
+    grid-column: 2/3;
+    padding: 100px 0px;
+}
+#about_metroid {
+    grid-column: 2/3;
+    padding: 100px 0px;
+}
+#about_kirby {
+    grid-column: 2/3;
+    padding: 100px 0px;
+}
+#about_star_fox {
+    grid-column: 2/3;
+    padding: 100px 0px;
+}
+#about_kong {
+    grid-column: 2/3;
+    padding: 100px 0px;
+}
+#about_pokemon {
+    grid-column: 2/3;
+    padding: 100px 0px;
+}
+#about_crossing {
+    grid-column: 2/3;
+    padding: 100px 0px;
+}
+#about_wii {
+    grid-column: 2/3;
+    padding: 100px 0px;
+}
+#about_xenoblade {
+    grid-column: 2/3;
+    padding: 100px 0px;
+}
+
 
 * {box-sizing:border-box}
 

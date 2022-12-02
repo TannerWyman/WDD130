@@ -17,7 +17,7 @@
         </nav>
     </header>
     <main class="series-grid">
-        <div id="about_mario">
+        <div id="about_mario" class="section">
             <h2>Super Mario Bros</h2>
             <!-- Slideshow container -->
             <div class="slideshow-container">
@@ -44,19 +44,18 @@
               </div>
               <br>
 
-              <!-- The dots/circles -->
-              <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-              </div>
-            <p>Release date;</p>
-            <p>JP: Sep 13, 1985</p>
-            <p>US: Oct 18, 1985</p>
-            <p>EU: May 15, 1987</p>
-            <p>Number of main line games: 21</p>
+
+            <div class="release_date">
+              <p class="release_items">Release date;</p>
+              <p class="release_items">JP: Sep 13, 1985</p>
+              <p class="release_items">US: Oct 18, 1985</p>
+              <p class="release_items">EU: May 15, 1987</p>
+            </div>
+            <p>Number of main line games: <b>21</b></p>
             <p>Latest release: Super Mario 3d World + Bowser’s Fury (2021)</p>
         </div>
+
+
         <div id="about_zelda">
             <h2>The Legend of Zelda</h2>
             <!-- Slideshow container -->
@@ -83,100 +82,324 @@
               <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
             </div>
             <br>
-
-            <!-- The dots/circles -->
-            <div style="text-align:center">
-              <span class="dot" onclick="currentSlide(1)"></span>
-              <span class="dot" onclick="currentSlide(2)"></span>
-              <span class="dot" onclick="currentSlide(3)"></span>
+            <div class="release_date">
+              <p class="release_items"">Release date;</p>
+              <p class="release_items">JP: Feb 21, 1986</p>
+              <p class="release_items">US: Aug 22, 1987</p>
+              <p class="release_items">EU: Nov 15, 1987</p>
             </div>
-            <p>Release date;</p>
-            <p>JP: Feb 21, 1986</p>
-            <p>US: Aug 22, 1987</p>
-            <p>EU: Nov 15, 1987</p>
             <p>Number of main line games: 21</p>
             <p>Latest release:The Legend of Zelda: Skyward Sword HD (2021)</p>
             <p>Upcoming release: The Legend of Zelda: Tears of the Kingdom (May 12, 2023)</p>
         </div>
+
+
         <div id="about_metroid">
             <h2>Metroid</h2>
-            <img class="game_logo" src="/wdd130/nin_history/styles/images/Metroid_logo.png" alt="Metroid logo">
-            <p>Release date;</p>
-            <p>JP: Aug 6, 1986</p>
-            <p>US: Aug 15, 1987</p>
-            <p>EU: Jan 15, 1988</p>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                        
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides3 fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="/wdd130/nin_history/styles/images/Metroid_logo.png" style="width:100%" alt="Metroid logo">
+              </div>
+            
+              <div class="mySlides3 fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="/wdd130/nin_history/styles/images/metroid-title-screen.jpg" style="width:100%" alt="Metroid title screen">
+              </div>
+            
+              <div class="mySlides3 fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="/wdd130/nin_history/styles/images/metroid-dread-title-screen.jpg" style="width:100%" alt="Metroid Dread title screen">
+              </div>
+            
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+            </div>
+            <br>
+            <div class="release_date">
+              <p class="release_items">Release date;</p>
+              <p class="release_items">JP: Aug 6, 1986</p>
+              <p class="release_items">US: Aug 15, 1987</p>
+              <p class="release_items">EU: Jan 15, 1988</p>
+            </div>
             <p>Number of main line games: 13</p>
             <p>Latest release: Metroid Dread (2021)</p>
             <p>Upcoming release: Metroid Prime 4 (TBD)</p>
         </div>
+
+
         <div id="about_kirby">
             <h2>Kirby</h2>
-            <img class="game_logo" src="/wdd130/nin_history/styles/images/kirby-logo.png" alt="Kirby logo">
-            <p>Release date;</p>
-            <p>JP: April 27, 1992</p>
-            <p>US: Aug 1, 1992</p>
-            <p>EU: Aug 1, 1992</p>            
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                        
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides4 fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="/wdd130/nin_history/styles/images/kirby-logo.png" style="width:100%" alt="Kirby logo">
+              </div>
+            
+              <div class="mySlides4 fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="/wdd130/nin_history/styles/images/kirby-title-screen.jpg" style="width:100%" alt="Kirby's Dream Land title screen">
+              </div>
+            
+              <div class="mySlides4 fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="/wdd130/nin_history/styles/images/kirby-forgotten-land-title-screen.jpg" style="width:100%" alt="Kirby and the forgotten land title screen">
+              </div>
+            
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+            </div>
+            <br>
+            
+
+            <div class="release_date">
+              <p class="release_items">Release date;</p>
+              <p class="release_items">JP: April 27, 1992</p>
+              <p class="release_items">US: Aug 1, 1992</p>
+              <p class="release_items">EU: Aug 1, 1992</p>
+            </div>            
             <p>Number of main line games: 21</p>
             <p>Latest release: Kirby and the Forgotten Land (2022)</p>
             <p>Upcoming release: Kirby’s Return to Dream Land (Feb 24, 2023)</p>
         </div>
+
+
         <div id="about_star_fox">
             <h2>Star Fox</h2>
-            <img class="game_logo" src="/wdd130/nin_history/styles/images/Star_Fox_series_logo.png" alt="Star Fox logo">
-            <p>Release date;</p>
-            <p>JP: Feb 21, 1993</p>
-            <p>US: Mar 1, 1993</p>
-            <p>EU: June 3, 1993</p>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                        
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides5 fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="/wdd130/nin_history/styles/images/Star_Fox_series_logo.png" style="width:100%" alt="Star Fox logo">
+              </div>
+            
+              <div class="mySlides5 fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="/wdd130/nin_history/styles/images/star-fox-title-screen.jpg" style="width:100%" alt="Star Fox title screen">
+              </div>
+            
+              <div class="mySlides5 fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="/wdd130/nin_history/styles/images/star-fox-zero-title-screen.jpg" style="width:100%" alt="Star Fox Zero title screen">
+              </div>
+            
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+            </div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <div class="release_date">
+              <p class="release_items">Release date;</p>
+              <p class="release_items">JP: Feb 21, 1993</p>
+              <p class="release_items">US: Mar 1, 1993</p>
+              <p class="release_items">EU: June 3, 1993</p>
+            </div>
             <p>Number of main line games: 7</p>
             <p>Latest release: Star Fox Zero (2016)</p>
         </div>
+
+
         <div id="about_kong">
             <h2>Donkey Kong Country</h2>
-            <img class="game_logo" src="/wdd130/nin_history/styles/images/Donkey_Kong_logo.png" alt="Donkey Kong Country logo">
-            <p>Release date;</p>
-            <p>JP: Nov 26, 1994</p>
-            <p>US: Nov 25, 1994</p>
-            <p>EU: Nov 24, 1994</p>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                        
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides6 fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="/wdd130/nin_history/styles/images/Donkey_Kong_logo.png" style="width:100%" alt="Donkey Kong logo">
+              </div>
+            
+              <div class="mySlides6 fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="/wdd130/nin_history/styles/images/donkey-kong-title-screen.jpg" style="width:100%" alt="Donkey Kong Country title screen">
+              </div>
+            
+              <div class="mySlides6 fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="/wdd130/nin_history/styles/images/dk-tropical-freeze-title-screen.jpg" style="width:100%" alt="Donkey Kong Country Tropical Freeze title screen">
+              </div>
+            
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1, 5)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
+            </div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <div class="release_date">
+              <p class="release_items">Release date;</p>
+              <p class="release_items">JP: Nov 26, 1994</p>
+              <p class="release_items">US: Nov 25, 1994</p>
+              <p class="release_items">EU: Nov 24, 1994</p>
+            </div>
             <p>Number of main line games: 6</p>
             <p>Latest release: Donkey Kong Country: Tropical Freeze (2014)</p>
         </div>
+
+
         <div id="about_pokemon">
             <h2>Pokemon</h2>
-            <img class="game_logo" src="/wdd130/nin_history/styles/images/pokémon_logopng.png" alt="Pokemon logo">
-            <p>Release date;</p>
-            <p>JP: Feb 27, 1996</p>
-            <p>US: Sep 28, 1998</p>
-            <p>EU: Oct 5, 1999</p>
-            <p>Number of main line games: 21</p>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                        
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides7 fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="/wdd130/nin_history/styles/images/pokémon_logopng.png" style="width:100%" alt="Pokémon logo">
+              </div>
+            
+              <div class="mySlides7 fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="/wdd130/nin_history/styles/images/pokemon-title-screen.jpg" style="width:100%" alt="Pokémon Red title screen">
+              </div>
+            
+              <div class="mySlides7 fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="/wdd130/nin_history/styles/images/pokemon-violet-title-screen.png" style="width:100%" alt="Pokémon Violet title screen">
+              </div>
+            
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1, 6)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1, 6)">&#10095;</a>
+            </div>
+            <br>
+            
+            <div class="release_date">
+              <p class="release_items">Release date;</p>
+              <p class="release_items">JP: Feb 27, 1996</p>
+              <p class="release_items">US: Sep 28, 1998</p>
+              <p class="release_items">EU: Oct 5, 1999</p>
+            </div>
+            <p>Number of main line games: <b>21</b></p>
             <p>Latest release:</p>
         </div>
+
+
         <div id="about_crossing">
             <h2>Animal Crossing</h2>
-            <img class="game_logo" src="/wdd130/nin_history/styles/images/animal_crossing_logo.png" alt="Animal Crossing logo">
-            <p>Release date;</p>
-            <p>JP: Dec 14, 2001</p>
-            <p>US: Sep 16, 2002</p>
-            <p>EU: Sep 24, 2004</p>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                        
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides8 fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="/wdd130/nin_history/styles/images/animal_crossing_logo.png" style="width:100%" alt="Animal Crossing logo">
+              </div>
+            
+              <div class="mySlides8 fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="/wdd130/nin_history/styles/images/animal-crossing-title-screen.jpg" style="width:100%" alt="Animal Crossing title screen">
+              </div>
+            
+              <div class="mySlides8 fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="/wdd130/nin_history/styles/images/animal-crossing-nhj-title-screen.jpg" style="width:100%" alt="Animal Crossing New Horizons title screen">
+              </div>
+            
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1, 7)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1, 7)">&#10095;</a>
+            </div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <div class="release_date">
+              <p class="release_items">Release date;</p>
+              <p class="release_items">JP: Dec 14, 2001</p>
+              <p class="release_items">US: Sep 16, 2002</p>
+              <p class="release_items">EU: Sep 24, 2004</p>
+            </div>
             <p>Number of main line games: There are 9 generations of games with each generation having a pair of games as well as third titles and remakes</p>
             <p>Latest release: Pokémon Scarlet and Violet (2022)</p>
         </div>
+
+
         <div id="about_wii">
             <h2>Wii series</h2>
-            <img class="game_logo" src="/wdd130/nin_history/styles/images/Wii_Sports_logo.svg.png" alt= "Wii Sports logo">
-            <p>Release date;</p>
-            <p>JP: Dec 2, 2006</p>
-            <p>US: Nov 19, 2006</p>
-            <p>EU: Dec 8, 2006</p>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                        
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides9 fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="/wdd130/nin_history/styles/images/Wii_Sports_logo.svg.png" style="width:100%" alt="Wii Sports logo">
+              </div>
+            
+              <div class="mySlides9 fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="/wdd130/nin_history/styles/images/wii-sports-title-screen.jpg" style="width:100%" alt="Wii Sports title screen">
+              </div>
+            
+              <div class="mySlides9 fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="/wdd130/nin_history/styles/images/switch-sports-title-screen.jpg" style="width:100%" alt="Nintendo Switch Sports title screen">
+              </div>
+            
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1, 8)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1, 8)">&#10095;</a>
+            </div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <div class="release_date">
+              <p class="release_items">Release date;</p>
+              <p class="release_items">JP: Dec 2, 2006</p>
+              <p class="release_items">US: Nov 19, 2006</p>
+              <p class="release_items">EU: Dec 8, 2006</p>
+            </div>
             <p>Number of main line games: 11</p>
             <p>Latest release: Nintendo Switch Sports (2022)</p>
         </div>
+
+
         <div id="about_xenoblade">
             <h2>Xenoblade Chronicles</h2>
-            <img class="game_logo" src="/wdd130/nin_history/styles/images/Xenoblade_Chronicles_logo.png" alt="Xenoblade Chronicles logo">
-            <p>Release date;</p>
-            <p>JP: June 10, 2010</p>
-            <p>US: Apr 6, 2012</p>
-            <p>EU: Aug 19, 2011</p>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                        
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides10 fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="/wdd130/nin_history/styles/images/Xenoblade_Chronicles_logo.png" style="width:100%" alt="Xenoblade Chronicles logo">
+              </div>
+            
+              <div class="mySlides10 fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="/wdd130/nin_history/styles/images/xenoblade-title-screen.jpg" style="width:100%" alt="Xenoblade Chronicles title screen">
+              </div>
+            
+              <div class="mySlides10 fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="/wdd130/nin_history/styles/images/Xenoblade3-title-screen.jpg" style="width:100%" alt="Xenoblade Chronicles 3 title screen">
+              </div>
+            
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1, 9)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1, 9)">&#10095;</a>
+            </div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <div class="release_date">
+              <p class="release_items">Release date;</p>
+              <p class="release_items">JP: June 10, 2010</p>
+              <p class="release_items">US: Apr 6, 2012</p>
+              <p class="release_items">EU: Aug 19, 2011</p>
+            </div>
             <p>Number of main line games: 4</p>
             <p>Latest release: Latest release: Xenoblade Chronicles 3 (2022)</p>
         </div>
@@ -189,10 +412,18 @@
 </body>
 </html>
 <script>
-let slideIndex = [1,1];
-let slideId = ["mySlides1", "mySlides2"]
+let slideIndex = [1,1,1,1,1,1,1,1,1,1];
+let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6", "mySlides7", "mySlides8", "mySlides9", "mySlides10"]
 showSlides(1, 0);
 showSlides(1, 1);
+showSlides(1, 2);
+showSlides(1, 3);
+showSlides(1, 4);
+showSlides(1, 5);
+showSlides(1, 6);
+showSlides(1, 7);
+showSlides(1, 8);
+showSlides(1, 9);
 
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
