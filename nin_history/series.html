@@ -83,7 +83,7 @@
             </div>
             <br>
             <div class="release_date">
-              <p class="release_items"">Release date;</p>
+              <p class="release_items">Release date;</p>
               <p class="release_items">JP: Feb 21, 1986</p>
               <p class="release_items">US: Aug 22, 1987</p>
               <p class="release_items">EU: Nov 15, 1987</p>
@@ -405,39 +405,40 @@
         </div>
     </main>
     <footer>
-        <p>&copy Nintendo</p>
-        <p>NinHistory &copy Tanner Wyman</p>
+        <p>&copy;Nintendo</p>
+        <p>NinHistory &copy;Tanner Wyman</p>
         <a href="/wdd130/nin_history/site-plan.html">site-plan</a>
     </footer>
+    <script>
+      let slideIndex = [1,1,1,1,1,1,1,1,1,1];
+      let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6", "mySlides7", "mySlides8", "mySlides9", "mySlides10"]
+      showSlides(1, 0);
+      showSlides(1, 1);
+      showSlides(1, 2);
+      showSlides(1, 3);
+      showSlides(1, 4);
+      showSlides(1, 5);
+      showSlides(1, 6);
+      showSlides(1, 7);
+      showSlides(1, 8);
+      showSlides(1, 9);
+      
+      function plusSlides(n, no) {
+        showSlides(slideIndex[no] += n, no);
+      }
+      
+      function showSlides(n, no) {
+        let i;
+        let x = document.getElementsByClassName(slideId[no]);
+        if (n > x.length) {slideIndex[no] = 1}    
+        if (n < 1) {slideIndex[no] = x.length}
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";  
+        }
+        x[slideIndex[no]-1].style.display = "block";  
+      }
+       
+    </script>
 </body>
+
 </html>
-<script>
-let slideIndex = [1,1,1,1,1,1,1,1,1,1];
-let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6", "mySlides7", "mySlides8", "mySlides9", "mySlides10"]
-showSlides(1, 0);
-showSlides(1, 1);
-showSlides(1, 2);
-showSlides(1, 3);
-showSlides(1, 4);
-showSlides(1, 5);
-showSlides(1, 6);
-showSlides(1, 7);
-showSlides(1, 8);
-showSlides(1, 9);
-
-function plusSlides(n, no) {
-  showSlides(slideIndex[no] += n, no);
-}
-
-function showSlides(n, no) {
-  let i;
-  let x = document.getElementsByClassName(slideId[no]);
-  if (n > x.length) {slideIndex[no] = 1}    
-  if (n < 1) {slideIndex[no] = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex[no]-1].style.display = "block";  
-}
- 
-</script>
