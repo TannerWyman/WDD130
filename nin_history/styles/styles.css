@@ -298,3 +298,25 @@ b {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+/* About Page */
+.about_grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 50px 75px;
+}
+.nintendo_logo {
+    grid-column: 4/6;
+    width: 500px;
+    grid-row: 1/2;
+}
+#about_title {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    font-size: 35px;
+}
+.nin_history_text {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    font-size: 25px;
+}
